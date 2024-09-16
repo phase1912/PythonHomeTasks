@@ -1,5 +1,7 @@
 ﻿from datetime import datetime
 
+# functions
+
 def get_days_from_today(date):
     try:
         now = datetime.today().date()
@@ -13,6 +15,7 @@ def get_days_from_today(date):
     else:
         return (now - datetime_object).days
 
+# main code
 
 date_str = input('Input date in format YYYY-MM-DD: ')
 
