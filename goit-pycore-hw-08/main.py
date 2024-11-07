@@ -163,7 +163,7 @@ def main():
         elif command == "add_phone":
             print(add_phone(args, book))
         elif command == "remove_phone":
-            print(add_phone(args, book))
+            print(remove_phone(args, book))
         elif command == "add_birthday":
             print(add_birthday(args, book))
         elif command == "find":
